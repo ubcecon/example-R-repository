@@ -41,7 +41,7 @@ import(gapminder)
 ```
 at the end of `NAMESPACE`. This will remove the burden of using `gapminder::` to call any method or dataset from `gapminder`.
 
-Completing both `DESCRIPTION` and `NAMESPACE` will give something like (af2c110)[https://github.com/ubcecon/example-R-repository/tree/af2c11029d919690bb415b3193a1cf3c3925674a]. 
+Completing both `DESCRIPTION` and `NAMESPACE` will give something like [af2c110](https://github.com/ubcecon/example-R-repository/tree/af2c11029d919690bb415b3193a1cf3c3925674a). 
 
 ## Adding functions
 All the methods to be used in the package should be contained in `R` directory. Here, I am adding the following function called `getavg` that returns the average of a given numeric vector saved in `getavg.R`:
@@ -61,7 +61,7 @@ getavg <- function (v) {
 ```
 The comments above the actual method definition are something called *roxygen comments* that can be used to build package manuals using `roxygen`. This is not needed unless you want to create an R package ready for CRAN submission or extra clarity.
 
-Adding `R/getavg.R` will give something like (4b32b9d)[https://github.com/ubcecon/example-R-repository/tree/4b32b9dddbcad81f58c2f63d89c503a50c4977f0].
+Adding `R/getavg.R` will give something like [4b32b9d](https://github.com/ubcecon/example-R-repository/tree/4b32b9dddbcad81f58c2f63d89c503a50c4977f0).
 
 ## Implementing unit tests
 ### Sniffing the code
@@ -95,7 +95,7 @@ test_that("check if getavg returns average values", {
   expect_warning(getavg(NULL)) # getavg(NULL) should return a warning
 })
 ```
-Once the unit tests are added, it will something like (717708b)[https://github.com/ubcecon/example-R-repository/tree/717708b170b29507f7d3585be0e0c9143e4f7b04].
+Once the unit tests are added, it will something like [717708b](https://github.com/ubcecon/example-R-repository/tree/717708b170b29507f7d3585be0e0c9143e4f7b04).
 
 ### Running unit tests
 To run the unit tests, execute the following:
