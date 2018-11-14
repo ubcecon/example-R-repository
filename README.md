@@ -8,7 +8,7 @@ Status](https://travis-ci.com/ubcecon/example-R-repository.svg?branch=master)](h
 - [R package primer](https://kbroman.org/pkg_primer/): contains a minimal tutorial on R package build workflow, without CI setups. 
 - [R packages by Hadley Wickham](http://r-pkgs.had.co.nz/): complete manual for R package creation
 
-# Setting up development environment
+# Creating a new package for a project
 ## Getting started
 In RSTudio, click `File -> New Project`. Choose `New Directory`, and select `R Package`. After adding a package name `findavg`, click on `Create Project`. This will create:
 
