@@ -5,8 +5,8 @@ Status](https://travis-ci.com/ubcecon/example-R-repository.svg?branch=master)](h
 # CI and Workflow for R
 
 ### Useful links:
-- (R package primer)[https://kbroman.org/pkg_primer/]: contains a minimal tutorial on R package build workflow, without CI setups. 
-- (R packages by Hadley Wickham)[http://r-pkgs.had.co.nz/]: complete manual for R package creation
+- [R package primer](https://kbroman.org/pkg_primer/): contains a minimal tutorial on R package build workflow, without CI setups. 
+- [R packages by Hadley Wickham](http://r-pkgs.had.co.nz/): complete manual for R package creation
 
 # Setting up development environment
 ## Getting started
