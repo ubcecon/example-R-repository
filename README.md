@@ -2,6 +2,8 @@
 Status](https://travis-ci.com/ubcecon/example-R-repository.svg?branch=master)](https://travis-ci.com/ubcecon/example-R-repository)
 [![codecov](https://codecov.io/gh/ubcecon/example-R-repository/branch/master/graphs/badge.svg)](https://codecov.io/gh/ubcecon/example-R-repository) 
 
+Following the tutorial below will result in a package that looks like this repository -- take it as an example of the end result of following the workflow below.
+
 # CI and Workflow for R
 
 ### Useful links:
