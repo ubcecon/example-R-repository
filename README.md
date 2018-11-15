@@ -151,3 +151,24 @@ Activating the repo from codecov.io will complete implementation. Add the follow
 ```
 where `YOUR_USERNAME` is your username and `REPO_NAME` is the name of repository in Github.
 
+# Working on a project with an existing package
+## Soft installation
+To install a package available in Github (that might not be on CRAN), one can use `devtools::install_github()`; for instance, to install this package, run the following line:
+```r
+devtools::install_github("ubcecon/example-R-repository")
+```
+
+## Modifying the package
+To modify a package in Github, first clone the package. Once changes are made, the package can be rebuilt by running the following line in bash console:
+```
+R CMD build PACKAGE_DIRECTORY
+```
+where `PACKAGE_DIRECTORY` is the directory where the cloned package is installed. In Windows, this can be done by running:
+```
+Rcmd.exe INSTALL --no-multiarch --with-keep.source PACKAGE_DIRECTORY
+```
+In RStudio, `Build -> Install and Restart` will do the same thing. The reinstalled package will replace the preexisting one in your local computer. To use the modified package, simply run
+```r
+library(PACKAGE_NAME)
+```
+in R console where `PACKAGE_NAME` is the name of the R package installed.
