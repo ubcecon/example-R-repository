@@ -9,6 +9,7 @@ Following the tutorial below will result in a package that looks like this repos
 ### Useful links:
 - [R package primer](https://kbroman.org/pkg_primer/): contains a minimal tutorial on R package build workflow, without CI setups. 
 - [R packages by Hadley Wickham](http://r-pkgs.had.co.nz/): complete manual for R package creation
+- [Travis tutorial](https://github.com/ropenscilabs/travis): tutorial by [rOpenSci Project](https://ropensci.org/) on Travis setup for R projects
 
 # Creating a new package for a project
 ## Getting started
